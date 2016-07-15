@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		586A11121D38C0DB00376F30 /* JLConfigurationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 586A11111D38C0DB00376F30 /* JLConfigurationHelper.m */; };
+		586A11131D38C0DB00376F30 /* JLConfigurationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 586A11111D38C0DB00376F30 /* JLConfigurationHelper.m */; };
+		586A11141D38C0DB00376F30 /* JLConfigurationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 586A11111D38C0DB00376F30 /* JLConfigurationHelper.m */; };
 		58A893F21D3875F60046D79F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A893F11D3875F60046D79F /* main.m */; };
 		58A893F51D3875F60046D79F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A893F41D3875F60046D79F /* AppDelegate.m */; };
 		58A893F81D3875F60046D79F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A893F71D3875F60046D79F /* ViewController.m */; };
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		586A110F1D38BCE700376F30 /* JLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLConstants.h; path = ../JLConstants.h; sourceTree = "<group>"; };
+		586A11101D38C0DB00376F30 /* JLConfigurationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLConfigurationHelper.h; sourceTree = "<group>"; };
+		586A11111D38C0DB00376F30 /* JLConfigurationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLConfigurationHelper.m; sourceTree = "<group>"; };
+		586A11151D38C2DF00376F30 /* JLPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLPrefixHeader.pch; sourceTree = "<group>"; };
 		58A893ED1D3875F60046D79F /* MyPersonLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPersonLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A893F11D3875F60046D79F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58A893F31D3875F60046D79F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +85,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		586A11091D38904700376F30 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		586A110A1D38904700376F30 /* CrashHandler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CrashHandler;
+			sourceTree = "<group>";
+		};
+		586A110B1D38904700376F30 /* Definitions */ = {
+			isa = PBXGroup;
+			children = (
+				586A110F1D38BCE700376F30 /* JLConstants.h */,
+				586A11151D38C2DF00376F30 /* JLPrefixHeader.pch */,
+			);
+			path = Definitions;
+			sourceTree = "<group>";
+		};
+		586A110C1D38904700376F30 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		586A110D1D38904700376F30 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				586A11101D38C0DB00376F30 /* JLConfigurationHelper.h */,
+				586A11111D38C0DB00376F30 /* JLConfigurationHelper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		586A110E1D38904700376F30 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		58A893E41D3875F60046D79F = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +154,12 @@
 		58A893EF1D3875F60046D79F /* MyPersonLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				586A11091D38904700376F30 /* Categories */,
+				586A110A1D38904700376F30 /* CrashHandler */,
+				586A110B1D38904700376F30 /* Definitions */,
+				586A110C1D38904700376F30 /* Externals */,
+				586A110D1D38904700376F30 /* Helper */,
+				586A110E1D38904700376F30 /* Images */,
 				58A893F31D3875F60046D79F /* AppDelegate.h */,
 				58A893F41D3875F60046D79F /* AppDelegate.m */,
 				58A893F61D3875F60046D79F /* ViewController.h */,
@@ -270,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				586A11121D38C0DB00376F30 /* JLConfigurationHelper.m in Sources */,
 				58A893F81D3875F60046D79F /* ViewController.m in Sources */,
 				58A893F51D3875F60046D79F /* AppDelegate.m in Sources */,
 				58A893F21D3875F60046D79F /* main.m in Sources */,
@@ -280,6 +340,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				586A11131D38C0DB00376F30 /* JLConfigurationHelper.m in Sources */,
 				58A8940B1D3875F60046D79F /* MyPersonLibraryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +349,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				586A11141D38C0DB00376F30 /* JLConfigurationHelper.m in Sources */,
 				58A894161D3875F60046D79F /* MyPersonLibraryUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +475,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyPersonLibrary/Definitions/JLPrefixHeader.pch";
 				INFOPLIST_FILE = MyPersonLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -425,6 +489,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyPersonLibrary/Definitions/JLPrefixHeader.pch";
 				INFOPLIST_FILE = MyPersonLibrary/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -498,6 +564,7 @@
 				58A8941C1D3875F60046D79F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58A8941D1D3875F60046D79F /* Build configuration list for PBXNativeTarget "MyPersonLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +573,7 @@
 				58A8941F1D3875F60046D79F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58A894201D3875F60046D79F /* Build configuration list for PBXNativeTarget "MyPersonLibraryUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +582,7 @@
 				58A894221D3875F60046D79F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

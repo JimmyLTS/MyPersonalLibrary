@@ -1,0 +1,17 @@
+//
+//  JLPrefixHeader.pch
+//  MyPersonLibrary
+//
+//  Created by Mac－mini on 16/7/15.
+//  Copyright © 2016年 com.JimmyLTS.www. All rights reserved.
+//
+
+#ifndef JLPrefixHeader_pch
+#define JLPrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "JLConstants.h"
+#import "JLConfigurationHelper.h"
+
+#endif /* JLPrefixHeader_pch */
