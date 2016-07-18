@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JLRegidtrationViewController.h"
+#import "JLLoginViewController.h"
+@class JLViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, JLLoginViewControllerDelegate, JLRegidtrationViewControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic) JLViewController *viewController;
+@property (strong, nonatomic) JLLoginViewController *loginVC;
+@property (strong, nonatomic) JLRegidtrationViewController *registrationVC;
 
 @end
 

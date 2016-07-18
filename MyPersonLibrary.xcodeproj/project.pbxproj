@@ -7,12 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		585C323A1D3C670300EB6D84 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C32391D3C670300EB6D84 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		585C323B1D3C670300EB6D84 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C32391D3C670300EB6D84 /* KeychainItemWrapper.m */; };
+		585C323C1D3C670300EB6D84 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C32391D3C670300EB6D84 /* KeychainItemWrapper.m */; };
+		585C323E1D3C674B00EB6D84 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585C323D1D3C674B00EB6D84 /* Security.framework */; };
+		585C32431D3C7C9700EB6D84 /* JLRegidtrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C32411D3C7C9700EB6D84 /* JLRegidtrationViewController.m */; };
+		585C32441D3C7C9700EB6D84 /* JLRegidtrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C32411D3C7C9700EB6D84 /* JLRegidtrationViewController.m */; };
+		585C32451D3C7C9700EB6D84 /* JLRegidtrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C32411D3C7C9700EB6D84 /* JLRegidtrationViewController.m */; };
+		585C32461D3C7C9700EB6D84 /* JLRegidtrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585C32421D3C7C9700EB6D84 /* JLRegidtrationViewController.xib */; };
+		585C32471D3C7C9700EB6D84 /* JLRegidtrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585C32421D3C7C9700EB6D84 /* JLRegidtrationViewController.xib */; };
+		585C32481D3C7C9700EB6D84 /* JLRegidtrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585C32421D3C7C9700EB6D84 /* JLRegidtrationViewController.xib */; };
+		585C324B1D3C84A200EB6D84 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C324A1D3C84A200EB6D84 /* NSString+MD5.m */; };
+		585C324C1D3C84A200EB6D84 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C324A1D3C84A200EB6D84 /* NSString+MD5.m */; };
+		585C324D1D3C84A200EB6D84 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C324A1D3C84A200EB6D84 /* NSString+MD5.m */; };
+		585C32511D3CB35900EB6D84 /* JLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C324F1D3CB35900EB6D84 /* JLLoginViewController.m */; };
+		585C32521D3CB35900EB6D84 /* JLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C324F1D3CB35900EB6D84 /* JLLoginViewController.m */; };
+		585C32531D3CB35900EB6D84 /* JLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C324F1D3CB35900EB6D84 /* JLLoginViewController.m */; };
+		585C32541D3CB35900EB6D84 /* JLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585C32501D3CB35900EB6D84 /* JLLoginViewController.xib */; };
+		585C32551D3CB35900EB6D84 /* JLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585C32501D3CB35900EB6D84 /* JLLoginViewController.xib */; };
+		585C32561D3CB35900EB6D84 /* JLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585C32501D3CB35900EB6D84 /* JLLoginViewController.xib */; };
+		585C32591D3CDC8500EB6D84 /* JLCrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C32581D3CDC8500EB6D84 /* JLCrashHandler.m */; };
+		585C325A1D3CDC8500EB6D84 /* JLCrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C32581D3CDC8500EB6D84 /* JLCrashHandler.m */; };
+		585C325B1D3CDC8500EB6D84 /* JLCrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C32581D3CDC8500EB6D84 /* JLCrashHandler.m */; };
+		585C325E1D3CF0EB00EB6D84 /* JLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C325D1D3CF0EB00EB6D84 /* JLViewController.m */; };
+		585C325F1D3CF0EB00EB6D84 /* JLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C325D1D3CF0EB00EB6D84 /* JLViewController.m */; };
+		585C32601D3CF0EB00EB6D84 /* JLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 585C325D1D3CF0EB00EB6D84 /* JLViewController.m */; };
 		586A11121D38C0DB00376F30 /* JLConfigurationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 586A11111D38C0DB00376F30 /* JLConfigurationHelper.m */; };
 		586A11131D38C0DB00376F30 /* JLConfigurationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 586A11111D38C0DB00376F30 /* JLConfigurationHelper.m */; };
 		586A11141D38C0DB00376F30 /* JLConfigurationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 586A11111D38C0DB00376F30 /* JLConfigurationHelper.m */; };
 		58A893F21D3875F60046D79F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A893F11D3875F60046D79F /* main.m */; };
 		58A893F51D3875F60046D79F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A893F41D3875F60046D79F /* AppDelegate.m */; };
-		58A893F81D3875F60046D79F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A893F71D3875F60046D79F /* ViewController.m */; };
 		58A893FB1D3875F60046D79F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A893F91D3875F60046D79F /* Main.storyboard */; };
 		58A893FD1D3875F60046D79F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58A893FC1D3875F60046D79F /* Assets.xcassets */; };
 		58A894001D3875F60046D79F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A893FE1D3875F60046D79F /* LaunchScreen.storyboard */; };
@@ -38,6 +62,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		585C32381D3C670300EB6D84 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		585C32391D3C670300EB6D84 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		585C323D1D3C674B00EB6D84 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		585C32401D3C7C9700EB6D84 /* JLRegidtrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRegidtrationViewController.h; sourceTree = "<group>"; };
+		585C32411D3C7C9700EB6D84 /* JLRegidtrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRegidtrationViewController.m; sourceTree = "<group>"; };
+		585C32421D3C7C9700EB6D84 /* JLRegidtrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JLRegidtrationViewController.xib; sourceTree = "<group>"; };
+		585C32491D3C84A200EB6D84 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		585C324A1D3C84A200EB6D84 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		585C324E1D3CB35900EB6D84 /* JLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLLoginViewController.h; sourceTree = "<group>"; };
+		585C324F1D3CB35900EB6D84 /* JLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLLoginViewController.m; sourceTree = "<group>"; };
+		585C32501D3CB35900EB6D84 /* JLLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JLLoginViewController.xib; sourceTree = "<group>"; };
+		585C32571D3CDC8500EB6D84 /* JLCrashHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLCrashHandler.h; sourceTree = "<group>"; };
+		585C32581D3CDC8500EB6D84 /* JLCrashHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLCrashHandler.m; sourceTree = "<group>"; };
+		585C325C1D3CF0EB00EB6D84 /* JLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLViewController.h; sourceTree = "<group>"; };
+		585C325D1D3CF0EB00EB6D84 /* JLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLViewController.m; sourceTree = "<group>"; };
 		586A110F1D38BCE700376F30 /* JLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JLConstants.h; path = ../JLConstants.h; sourceTree = "<group>"; };
 		586A11101D38C0DB00376F30 /* JLConfigurationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLConfigurationHelper.h; sourceTree = "<group>"; };
 		586A11111D38C0DB00376F30 /* JLConfigurationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLConfigurationHelper.m; sourceTree = "<group>"; };
@@ -46,8 +85,6 @@
 		58A893F11D3875F60046D79F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58A893F31D3875F60046D79F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58A893F41D3875F60046D79F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		58A893F61D3875F60046D79F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		58A893F71D3875F60046D79F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		58A893FA1D3875F60046D79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58A893FC1D3875F60046D79F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58A893FF1D3875F60046D79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585C323E1D3C674B00EB6D84 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,9 +123,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		585C32371D3C66EB00EB6D84 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				585C32381D3C670300EB6D84 /* KeychainItemWrapper.h */,
+				585C32391D3C670300EB6D84 /* KeychainItemWrapper.m */,
+			);
+			name = Keychain;
+			sourceTree = "<group>";
+		};
+		585C323F1D3C7C5D00EB6D84 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				585C32401D3C7C9700EB6D84 /* JLRegidtrationViewController.h */,
+				585C32411D3C7C9700EB6D84 /* JLRegidtrationViewController.m */,
+				585C32421D3C7C9700EB6D84 /* JLRegidtrationViewController.xib */,
+				585C324E1D3CB35900EB6D84 /* JLLoginViewController.h */,
+				585C324F1D3CB35900EB6D84 /* JLLoginViewController.m */,
+				585C32501D3CB35900EB6D84 /* JLLoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		586A11091D38904700376F30 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				585C32491D3C84A200EB6D84 /* NSString+MD5.h */,
+				585C324A1D3C84A200EB6D84 /* NSString+MD5.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -95,6 +157,8 @@
 		586A110A1D38904700376F30 /* CrashHandler */ = {
 			isa = PBXGroup;
 			children = (
+				585C32571D3CDC8500EB6D84 /* JLCrashHandler.h */,
+				585C32581D3CDC8500EB6D84 /* JLCrashHandler.m */,
 			);
 			path = CrashHandler;
 			sourceTree = "<group>";
@@ -111,6 +175,7 @@
 		586A110C1D38904700376F30 /* Externals */ = {
 			isa = PBXGroup;
 			children = (
+				585C32371D3C66EB00EB6D84 /* Keychain */,
 			);
 			path = Externals;
 			sourceTree = "<group>";
@@ -134,6 +199,7 @@
 		58A893E41D3875F60046D79F = {
 			isa = PBXGroup;
 			children = (
+				585C323D1D3C674B00EB6D84 /* Security.framework */,
 				58A893EF1D3875F60046D79F /* MyPersonLibrary */,
 				58A894091D3875F60046D79F /* MyPersonLibraryTests */,
 				58A894141D3875F60046D79F /* MyPersonLibraryUITests */,
@@ -154,6 +220,7 @@
 		58A893EF1D3875F60046D79F /* MyPersonLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				585C323F1D3C7C5D00EB6D84 /* Login */,
 				586A11091D38904700376F30 /* Categories */,
 				586A110A1D38904700376F30 /* CrashHandler */,
 				586A110B1D38904700376F30 /* Definitions */,
@@ -162,8 +229,8 @@
 				586A110E1D38904700376F30 /* Images */,
 				58A893F31D3875F60046D79F /* AppDelegate.h */,
 				58A893F41D3875F60046D79F /* AppDelegate.m */,
-				58A893F61D3875F60046D79F /* ViewController.h */,
-				58A893F71D3875F60046D79F /* ViewController.m */,
+				585C325C1D3CF0EB00EB6D84 /* JLViewController.h */,
+				585C325D1D3CF0EB00EB6D84 /* JLViewController.m */,
 				58A893F91D3875F60046D79F /* Main.storyboard */,
 				58A893FC1D3875F60046D79F /* Assets.xcassets */,
 				58A893FE1D3875F60046D79F /* LaunchScreen.storyboard */,
@@ -302,6 +369,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585C32541D3CB35900EB6D84 /* JLLoginViewController.xib in Resources */,
+				585C32461D3C7C9700EB6D84 /* JLRegidtrationViewController.xib in Resources */,
 				58A894001D3875F60046D79F /* LaunchScreen.storyboard in Resources */,
 				58A893FD1D3875F60046D79F /* Assets.xcassets in Resources */,
 				58A893FB1D3875F60046D79F /* Main.storyboard in Resources */,
@@ -312,6 +381,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585C32551D3CB35900EB6D84 /* JLLoginViewController.xib in Resources */,
+				585C32471D3C7C9700EB6D84 /* JLRegidtrationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +390,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585C32561D3CB35900EB6D84 /* JLLoginViewController.xib in Resources */,
+				585C32481D3C7C9700EB6D84 /* JLRegidtrationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,10 +402,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585C32511D3CB35900EB6D84 /* JLLoginViewController.m in Sources */,
 				586A11121D38C0DB00376F30 /* JLConfigurationHelper.m in Sources */,
-				58A893F81D3875F60046D79F /* ViewController.m in Sources */,
+				585C32431D3C7C9700EB6D84 /* JLRegidtrationViewController.m in Sources */,
 				58A893F51D3875F60046D79F /* AppDelegate.m in Sources */,
+				585C325E1D3CF0EB00EB6D84 /* JLViewController.m in Sources */,
+				585C323A1D3C670300EB6D84 /* KeychainItemWrapper.m in Sources */,
 				58A893F21D3875F60046D79F /* main.m in Sources */,
+				585C32591D3CDC8500EB6D84 /* JLCrashHandler.m in Sources */,
+				585C324B1D3C84A200EB6D84 /* NSString+MD5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +418,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585C325A1D3CDC8500EB6D84 /* JLCrashHandler.m in Sources */,
 				586A11131D38C0DB00376F30 /* JLConfigurationHelper.m in Sources */,
+				585C325F1D3CF0EB00EB6D84 /* JLViewController.m in Sources */,
 				58A8940B1D3875F60046D79F /* MyPersonLibraryTests.m in Sources */,
+				585C324C1D3C84A200EB6D84 /* NSString+MD5.m in Sources */,
+				585C32441D3C7C9700EB6D84 /* JLRegidtrationViewController.m in Sources */,
+				585C32521D3CB35900EB6D84 /* JLLoginViewController.m in Sources */,
+				585C323B1D3C670300EB6D84 /* KeychainItemWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,8 +433,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				585C325B1D3CDC8500EB6D84 /* JLCrashHandler.m in Sources */,
 				586A11141D38C0DB00376F30 /* JLConfigurationHelper.m in Sources */,
+				585C32601D3CF0EB00EB6D84 /* JLViewController.m in Sources */,
 				58A894161D3875F60046D79F /* MyPersonLibraryUITests.m in Sources */,
+				585C324D1D3C84A200EB6D84 /* NSString+MD5.m in Sources */,
+				585C32451D3C7C9700EB6D84 /* JLRegidtrationViewController.m in Sources */,
+				585C32531D3CB35900EB6D84 /* JLLoginViewController.m in Sources */,
+				585C323C1D3C670300EB6D84 /* KeychainItemWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
